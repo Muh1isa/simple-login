@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+body {
+   
+    height: 100vh;
+    background-image: url(/pexels-cátia-matos-1072179.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.bg-color {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .8);
+}
+
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    width: 400px;
+    height: 500px;
+    background: rgb(40,46,50);
+    background: linear-gradient(180deg, rgba(40,46,50,1) 19%, rgba(24,23,43,1) 80%);
+}
+
+h2 {
+    color: #fff;
+    font-size: 40px;
+    text-transform: uppercase;
+    margin: 70px 0;
+}
+
+input {
+    width: 80%;
+    height: 50px;
+    padding: 20px;
+    font-size: 18px;
+}
+
+button {
+    width: 80%;
+    height: 50px;
+    font-size: 18px;
+    color: #fff;
+    background-color: hsl(226, 77%, 44%);
+    border: none;
+    cursor: pointer;
+}
